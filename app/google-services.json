@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "986410748226",
+    "firebase_url": "https://testmassages-72612.firebaseio.com",
+    "project_id": "testmassages-72612",
+    "storage_bucket": "testmassages-72612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986410748226:android:190bb17725a55135",
+        "android_client_info": {
+          "package_name": "ru.ratmir.soft.notifycloudmassadges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986410748226-59s6gor4g73kcn02112s4gss4q3rku2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.ratmir.soft.notifycloudmassadges",
+            "certificate_hash": "c963babcfaa4eef2b4a04697854c70e5523064ce"
+          }
+        },
+        {
+          "client_id": "986410748226-73eqgon1ac1qge8bir31670k6btstr3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc9s6l7jhEBNaHIsTrTPdVzCaXN55RpPo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986410748226-73eqgon1ac1qge8bir31670k6btstr3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
