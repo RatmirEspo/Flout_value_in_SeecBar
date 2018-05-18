@@ -10,7 +10,6 @@ import ru.ratmir.soft.notifycloudmassadges.costume.FloatSeekBar;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView txt;
 
     @SuppressLint("DefaultLocale")
     @Override
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txt = findViewById(R.id.msg);
+        TextView txt = findViewById(R.id.msg);
         FloatSeekBar seek = findViewById(R.id.cosSeeck);
 
         seek.setOnFloatSeekBarChangeListener(new FloatSeekBar.OnFloatSeekBarChangeListener() {

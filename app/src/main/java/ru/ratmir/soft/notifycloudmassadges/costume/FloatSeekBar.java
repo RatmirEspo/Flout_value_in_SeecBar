@@ -16,16 +16,16 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
         implements SeekBar.OnSeekBarChangeListener  {
     private OnFloatSeekBarChangeListener floatListener;
     private float floatMaxValue = 100.f;
-    private float floatPrgress = 0.f;
-    private float minPrgress = 0.f;
+    private float floatProgress = 0.f;
+    private float minProgress = 0.f;
 
-    public float getMinPrgress() {
-        return minPrgress;
+    public float getMinProgress() {
+        return minProgress;
     }
 
-    public void setMin(float minPrgress) {
-        this.minPrgress = minPrgress;
-        int middle = getMiddle(floatMaxValue, minPrgress);
+    public void setMin(float minProgress) {
+        this.minProgress = minProgress;
+        int middle = getMiddle(floatMaxValue, minProgress);
         super.setMax(middle);
 
 
@@ -38,13 +38,13 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
     }
 
 
-    public float getFloatPrgress() {
-        return floatPrgress;
+    public float getFloatProgress() {
+        return floatProgress;
     }
 
-    public void setFloatPrgress(float floatPrgress) {
-        this.floatPrgress = floatPrgress;
-        int i = Math.round((floatPrgress - minPrgress) * 10);
+    public void setFloatProgress(float floatProgress) {
+        this.floatProgress = floatProgress;
+        int i = Math.round((floatProgress - minProgress) * 10);
         super.setProgress(i);
 
     }
@@ -62,10 +62,10 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
         TypedArray typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.FloatSeekBar, 0, 0);
 
         floatMaxValue = typedArray.getFloat(R.styleable.FloatSeekBar_floatMax, 100f);
-        minPrgress = typedArray.getFloat(R.styleable.FloatSeekBar_floatMin, 0f);
-        floatPrgress = typedArray.getFloat(R.styleable.FloatSeekBar_progress, 0f);
+        minProgress = typedArray.getFloat(R.styleable.FloatSeekBar_floatMin, 0f);
+        floatProgress = typedArray.getFloat(R.styleable.FloatSeekBar_progress, 0f);
 
-        setFloatPrgress(floatPrgress);
+        setFloatProgress(floatProgress);
         this.setOnSeekBarChangeListener(this);
     }
 
@@ -75,7 +75,7 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
 
     public void setMax(float value) {
         floatMaxValue = value;
-        int middle = getMiddle(floatMaxValue, minPrgress);
+        int middle = getMiddle(floatMaxValue, minProgress);
         super.setMax(middle);
 
     }
@@ -83,7 +83,7 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
 
     public void setOnFloatSeekBarChangeListener(OnFloatSeekBarChangeListener floatListener) {
         this.floatListener = floatListener;
-        int middle = getMiddle(floatMaxValue, minPrgress);
+        int middle = getMiddle(floatMaxValue, minProgress);
         super.setMax(middle);
 
 
@@ -91,8 +91,8 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
 
     @Override
     public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-        floatPrgress = minPrgress + i / 10.0f;
-        floatListener.onFloatSeekProgressChanged(seekBar, floatPrgress, b);
+        floatProgress = minProgress + i / 10.0f;
+        floatListener.onFloatSeekProgressChanged(seekBar, floatProgress, b);
 
     }
 
