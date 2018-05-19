@@ -166,6 +166,7 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
     }
 }
 ```
+
 ![first image](screens/01_first.jpg)
 
 ![first image](screens/02_second.jpg)
@@ -173,5 +174,11 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
 ![first image](screens/03_third.jpg)
 
 ![first image](screens/04_for.jpg)
+
+
+
+| 01 | 02 | 03 |04|
+| --- | --- | --- | --- |
+|![first image](screens/01_first.jpg)| ![first image](screens/02_second.jpg)| ![first image](screens/03_third.jpg)| ![first image](screens/04_for.jpg)|
 
 
