@@ -1,6 +1,7 @@
 # Example Flout value in Android SeecBar
-![ScreenCaptureProject](media/15267426460922/ScreenCaptureProject.gif)
-
+||
+|:-:|
+|![ScreenCaptureProject](media/15267426460922/ScreenCaptureProject.gif)|
 -------
 
 |  |  |  | |
