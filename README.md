@@ -163,15 +163,6 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
     }
 }
 ```
-
-![IMAGE 2018-05-18 13:30:26](https://lh3.googleusercontent.com/-PzukNGFG0cM/Wv6rlgE3R-I/AAAAAAAACbU/vdjIHCoKKtUv4hh_3dDQuNYfBJ2KbMWmQCHMYCw/I/IMAGE%2B2018-05-18%2B13%253A30%253A26.jpg)
-
-![IMAGE 2018-05-18 13:30:27](https://lh3.googleusercontent.com/-eqRmuPIrFyU/Wv6rtS3SOpI/AAAAAAAACbY/fywpg7lEyy8s2rh9u0MZicM_8GEGDYOgwCHMYCw/I/IMAGE%2B2018-05-18%2B13%253A30%253A27.jpg)
-
-![IMAGE 2018-05-18 13:30:29](https://lh3.googleusercontent.com/--uC_7oJIizo/Wv6rvdPfuCI/AAAAAAAACbc/7r_73yT41mQvxpmq5iU8owTyxPT75fEsQCHMYCw/I/IMAGE%2B2018-05-18%2B13%253A30%253A29.jpg)
-
-![IMAGE 2018-05-18 13:30:32](https://lh3.googleusercontent.com/-aUSQCf9-zIc/Wv6rx96GgWI/AAAAAAAACbg/a2MIf2nIhTkhM4Fgshp0sETF8mlHSnmfgCHMYCw/I/IMAGE%2B2018-05-18%2B13%253A30%253A32.jpg)
-
-
+![first image](https://github.com/RatmirEspo/Flout_value_in_SeecBar/blob/master/screens/IMAGE%202018-05-18%2013:30:26.jpg)
 
 
