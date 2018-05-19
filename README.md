@@ -1,5 +1,8 @@
 # Example Flout value in Android SeecBar
 
+![pic_from_programm_508](https://lh3.googleusercontent.com/-mbblaWw3LNo/WwAwk0AJa0I/AAAAAAAACb4/Udw6NOaG4PoFr3cEbv0sO5NqD2HmU5B_ACHMYCw/I/pic_from_programm_508.jpg)
+
+
 ## How to use
 
 ### marking:
