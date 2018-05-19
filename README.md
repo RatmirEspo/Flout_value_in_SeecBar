@@ -1,8 +1,14 @@
 # Example Flout value in Android SeecBar
+![ScreenCaptureProject](media/15267426460922/ScreenCaptureProject.gif)
 
-|  |  |  ||
+-------
+
+|  |  |  | |
 | --- | --- | --- | --- |
-|![first image](screens/01_first.jpg)| ![first image](screens/02_second.jpg)| ![first image](screens/03_third.jpg)| ![first image](screens/04_for.jpg)|
+|![01_first](media/15267426460922/01_first.jpg)| ![03_third](media/15267426460922/03_third.jpg)|![03_third](media/15267426460922/03_third.jpg) | ![04_fo](media/15267426460922/04_for.jpg)
+|
+
+-------
 
 ## How to use
 
@@ -180,5 +186,10 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
     }
 }
 ```
+
+
+
+
+
 
 
