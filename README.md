@@ -6,7 +6,7 @@
 
 ## How to use
 
-### marking:
+### marking in xml:
 ```xml
 <TextView
         android:id="@+id/msg"
@@ -26,7 +26,7 @@
         android:layout_centerHorizontal="true"/>
 ```
 
-### Code
+### Code to use
 
 ```java
 protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +55,19 @@ protected void onCreate(Bundle savedInstanceState) {
 
 
     }
+```
+### attr.xml
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FloatSeekBar">
+        <attr name="floatMax" format="float" />
+        <attr name="floatMin" format="float" />
+        <attr name="progress" format="float"/>
+    </declare-styleable>
+
+</resources>
 ```
 ### FloatSeekBar class
 
