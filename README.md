@@ -168,10 +168,10 @@ public class FloatSeekBar extends android.support.v7.widget.AppCompatSeekBar
 ```
 ![first image](screens/01_first.jpg)
 
-![first image](https://github.com/RatmirEspo/Flout_value_in_SeecBar/blob/master/screens/02_second.jpg)
+![first image](screens/02_second.jpg)
 
-![first image](https://github.com/RatmirEspo/Flout_value_in_SeecBar/blob/master/screens/03_third.jpg)
+![first image](screens/03_third.jpg)
 
-![first image](https://github.com/RatmirEspo/Flout_value_in_SeecBar/blob/master/screens/04_for.jpg)
+![first image](screens/04_for.jpg)
 
 
